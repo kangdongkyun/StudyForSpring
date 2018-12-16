@@ -7,7 +7,8 @@
 
 <h2>JSP</h2>
 <ul>
-    <li>게시판 구현 프로젝트</li>
+    <li>게시판 구현 프로젝트 - 환경설정 - java, tomcat8, mysql, boots</li>
+    
 </ul>
 
 <h2>Design Pattern</h2>
