@@ -9,15 +9,14 @@
 <ul>
     <li>게시판 구현 프로젝트</li>
 </ul>
-<ul>
-    <li>JSP - 게시판 구현 프로젝트</li>
-</ul>
+
 <h2>Design Pattern</h2>
 <ul>
     <li>HeadFirst Design Pattern</li>
     <li>https://martinfowler.com/articles/refactoring-2nd-ed.html#working-on-the-web-edition
          - Refactoring of martinfowler</li>
 </ul>
+
 <h2>Spring</h2>
 <ul>
     <li>Toby Lee - Spring</li>
