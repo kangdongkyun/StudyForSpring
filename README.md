@@ -4,6 +4,11 @@
 <ul>
     <li>kebin - Modern Java</li>
 </ul>
+
+<h2>JSP</h2>
+<ul>
+    <li>게시판 구현 프로젝트</li>
+</ul>
 <ul>
     <li>JSP - 게시판 구현 프로젝트</li>
 </ul>
