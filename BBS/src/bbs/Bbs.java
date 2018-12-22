@@ -6,7 +6,7 @@ public class Bbs {
 	private String userID;
 	private String bbsDate;
 	private String bbsContent;
-	private String bbsAvailable;
+	private int bbsAvailable;
 	public int getBbsID() {
 		return bbsID;
 	}
@@ -37,10 +37,10 @@ public class Bbs {
 	public void setBbsContent(String bbsContent) {
 		this.bbsContent = bbsContent;
 	}
-	public String getBbsAvailable() {
+	public int getBbsAvailable() {
 		return bbsAvailable;
 	}
-	public void setBbsAvailable(String bbsAvailable) {
+	public void setBbsAvailable(int bbsAvailable) {
 		this.bbsAvailable = bbsAvailable;
 	}
 	
