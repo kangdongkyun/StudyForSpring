@@ -8,6 +8,7 @@
 <h2>JSP</h2>
 <ul>
     <li>게시판 구현 프로젝트 - 환경설정 - java, tomcat8, mysql, boots</li>
+    <li>파일 업로드 구현 - 환경설정 - java, tomcat8, mysql, cos library</li>
     
 </ul>
 
