@@ -13,7 +13,7 @@
 </head>
 <body>
 	<%
-		String directory = application.getRealPath("/upload/");
+		String directory = "C:/JSP/upload";//application.getRealPath("/upload/");
 		int maxSize = 1024 * 1024 * 100;
 		String encoding = "UTF-8";
 		
@@ -22,10 +22,17 @@
 						new DefaultFileRenamePolicy());
 		String fileName = mulitpartRequest.getOriginalFileName("file");
 		String fileRealName = mulitpartRequest.getFilesystemName("file");
-		
-		new FileDAO().upload(fileName,fileRealName);
-		out.write("파일명" + fileName + "<br>");
-		out.write("실제파일명" + fileRealName + "<br>");
+		if(!fileName.endsWith(".doc") &&!fileName.endsWith(".hwp") 
+				&&!fileName.endsWith(".pdf") &&!fileName.endsWith(".xls")){
+			File file = new File(directory + fileRealName);
+			file.delete();
+			out.write("업로드할 수 없는 파일입니다.");
+		}// 시큐어 코딩 적용
+		else{
+			new FileDAO().upload(fileName,fileRealName);
+			out.write("파일명" + fileName + "<br>");
+			out.write("실제파일명" + fileRealName + "<br>");
+		}
 		
 	%>
 </body>
